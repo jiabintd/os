@@ -1,6 +1,8 @@
 
 **root权限**
-`sudo -i`
+`
+sudo -i
+`
 
 **查看时间**
 `date -R`
@@ -9,12 +11,19 @@
 `cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime`
 
 **安装wget**
-```yum -y install wget```
+```
+yum -y install wget
+```
 
 **安装bbr**
-`wget --no-check-certificate https://github.com/jiabintd/os/linux/tools/bbr.sh`
+```
+wget --no-check-certificate https://github.com/jiabintd/os/linux/tools/bbr.sh
+```
 
-```chmod +x bbr.sh```
+```
+chmod +x bbr.sh
+./bbr.sh
+```
 
-```./bbr.sh```
+
       
