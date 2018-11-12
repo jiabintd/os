@@ -13,6 +13,8 @@
 
 **安装bbr**
 `wget --no-check-certificate https://github.com/jiabintd/os/linux/tools/bbr.sh`
+
 ```chmod +x bbr.sh```
+
 ```./bbr.sh```
       
